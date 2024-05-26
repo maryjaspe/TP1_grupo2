@@ -75,7 +75,7 @@ nav {
   flex: 1;
 }
 #buscador {
-  background: url(./imagenes/imagenlupa.png) no-repeat 8px 8px;
+  background: url(./public/imagenes/imagenlupa.png) no-repeat 8px 8px;
   background-size: 24px;
   width: 100%;
   border: solid 1px #ccc;
