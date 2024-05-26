@@ -1,18 +1,64 @@
 <!DOCTYPE html>
+<!-- El lang es el idioma -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>producto</title>
+    <title>Pupys Bakery - Productos</title>
+    <link rel="icon" href="./imagenes/logotab.png" sizes="any" />
+    <!-- estilos ccs  -->
+    <link rel="stylesheet" href="./css/misestilos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-straight/css/uicons-regular-straight.css"
+    />
   </head>
+
   <body>
-    <header>
-      <h1>Productos</h1>
-      <nav>
-        <a href="./inicio.html">inicio</a>
-        <a href="#">Ayuda</a>
-        <a href="#">Contacto</a>
-      </nav>
-    </header>
+    <header class="container-menu"></header>
+    <nav>
+      <div class="container-inicio">
+        <a href="./index.html">
+          <img src="./imagenes/logopupys.png" />
+        </a>
+
+        <a class="button-menu active" href="./producto.html">Productos</a>
+        <a class="button-menu" href="./nosotros.html">Nosotros</a>
+        <a class="button-menu" href="./contactos.html">Contactos</a>
+      </div>
+      <div class="container-login">
+        <input type="search" placeholder="Buscar" id="buscador" />
+        <!-- <a>
+              <img src="./imagenes/user.png" />
+            </a> -->
+        <a href="#" class="button-menu"
+          ><img src="./imagenes/carrocompra.png"
+        /></a>
+      </div>
+    </nav>
+
+    <section clas="container-nuestros-productos">
+      <h2 class="subtitulos">Nuestros productos</h2>
+    </section>
+
+    <footer class="piedepagina">
+      <div class="contactos">
+        <p>Atencion al cliente</p>
+        <p><i class="fi fi-rr-phone-call"></i>+5491161602895</p>
+        <p><i class="fi fi-rs-envelope"></i>pupysbakery@gmail.com</p>
+      </div>
+
+      <div class="redessociales">
+        <p class="contactosfooter">contactos</p>
+        <img class="imgredsocial" src="./imagenes/instagram.png" />
+        <img class="imgredsocial" src="./imagenes/facebook.png" />
+        <img class="imgredsocial" src="./imagenes/youtube.png" />
+        <img class="imgredsocial" src="./imagenes/whatsapp.png" />
+      </div>
+    </footer>
   </body>
 </html>

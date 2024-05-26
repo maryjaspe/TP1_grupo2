@@ -1,0 +1,142 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: popins, Arial, Helvetica, sans-serif;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  border-bottom: 1px solid #3f110b;
+  max-width: 100vw;
+}
+
+.container-inicio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+}
+
+.container-login {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-right: 18px;
+  gap: 16px;
+}
+.container-login img {
+  width: 25px;
+  height: 25px;
+  display: flex;
+}
+
+.button-menu {
+  border: none;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 12px;
+  border: solid 2px transparent;
+}
+
+.button-menu:hover,
+.button-menu.active {
+  border: solid 2px #b23417;
+}
+
+.button-menu.active {
+  background-color: #b23417;
+  color: white;
+}
+
+.container-menu {
+  padding: 10px;
+  background-color: #b23417;
+  color: white;
+}
+
+.container-contenido {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.container-horizontal {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 75px;
+}
+.imagenperrotorta {
+  flex: 1;
+}
+#buscador {
+  background: url(./imagenes/imagenlupa.png) no-repeat 8px 8px;
+  background-size: 24px;
+  width: 100%;
+  border: solid 1px #ccc;
+  border-radius: 8px;
+  padding: 10px 10px 10px 40px;
+  outline: none;
+  font-size: 16px;
+}
+.container-acercadenosotros {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+  font-size: 24px;
+}
+.subtitulos {
+  font-size: 4em;
+  padding: 0px 30px;
+  color: #b23417;
+  text-align: center;
+}
+.imagencamidasaludable {
+  flex: 1;
+  max-width: 650px;
+}
+.container-parrafos {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.piedepagina {
+  display: flex;
+  padding: 90px;
+  background-color: #b23417;
+  color: white;
+  margin-top: 30px;
+  font-weight: 600;
+  line-height: 30px;
+  justify-content: space-between;
+}
+.redessociales {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.imgredsocial {
+  height: 40px;
+  width: 40px;
+}
+.contactosfooter {
+  width: 100%;
+  text-align: center;
+}
+.fi.fi-rr-phone-call,
+.fi.fi-rs-envelope {
+  margin-right: 12px;
+}
+
+.container-nuestros-productos {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
