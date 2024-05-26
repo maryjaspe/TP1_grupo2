@@ -1,0 +1,6 @@
+form{
+    background-color: var(--fondo-general);
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
