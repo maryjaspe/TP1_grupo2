@@ -8,6 +8,7 @@
     <link rel="icon" href="./imagenes/logotab.png" sizes="any" />
     <!-- estilos ccs  -->
     <link rel="stylesheet" href="./css/misestilos.css" />
+    <link rel="stylesheet" href="./css/cards.css" />
     <link
       rel="stylesheet"
       href="https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-regular-rounded.css"
@@ -25,7 +26,7 @@
         <a href="./index.html">
           <img src="./imagenes/logopupys.png" />
         </a>
-    
+
         <a class="button-menu" href="./producto.html">Productos</a>
         <a class="button-menu" href="./nosotros.html">Nosotros</a>
         <a class="button-menu" href="./contactos.html">Contactos</a>
@@ -35,16 +36,53 @@
         <!-- <a>
                 <img src="./imagenes/user.png" />
               </a> -->
-        <a href="#" class="button-menu"><img src="./imagenes/carrocompra.png" /></a>
+        <a href="#" class="button-menu"
+          ><img src="./imagenes/carrocompra.png"
+        /></a>
       </div>
     </nav>
     <section>
       <div class="container-horizontal">
         <img src="./imagenes/pethorizontal.png" />
         <div class="container-contenido">
-          <img class="imagenperrotorta" src="./imagenes/torta de cumple.jpg" />
-          <img class="imagenperrotorta" src="./imagenes/pretzel.jpg" />
-          <img class="imagenperrotorta" src="./imagenes/rollo.jpg" />
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  class="imagenperrotorta"
+                  src="./imagenes/torta de cumple.jpg"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h1>Descripcion 1</h1>
+                <p>texto informativo</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img class="imagenperrotorta" src="./imagenes/pretzel.jpg" />
+              </div>
+              <div class="flip-card-back">
+                <h1>Descripcion 1</h1>
+                <p>texto informativo</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img class="imagenperrotorta" src="./imagenes/rollo.jpg" />
+              </div>
+              <div class="flip-card-back">
+                <h1>Descripcion 1</h1>
+                <p>texto informativo</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -58,6 +96,7 @@
       <div class="redessociales">
         <p class="contactosfooter">Contactos</p>
         <img class="imgredsocial" src="./imagenes/instagram.png" />
+
         <img class="imgredsocial" src="./imagenes/facebook.png" />
         <img class="imgredsocial" src="./imagenes/youtube.png" />
         <img class="imgredsocial" src="./imagenes/whatsapp.png" />
