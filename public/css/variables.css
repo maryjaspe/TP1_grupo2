@@ -1,20 +1,16 @@
 :root {
-    --titulo: #b23417;
-    --botones: #b23417;
-    --header: #b23417;
-    --footer: #b23417;
+  --color-primario: #b23417;
 
-    --fondo-general: #fce9d8;
-    --secciones: #f4ae7d;
-    --lineas-y-bordes: #3f110b;
+  --titulo: #b23417;
+  --botones: #b23417;
+  --header: #b23417;
+  --footer: #b23417;
 
-    --iconos: #fef5ee;
-    --font-poppins-regular-texto:   font-family: "Poppins", sans-serif,
-                                    font-weight: 400,
-                                    font-style: normal;
-    
-    --font-poppins-medium-titulos:  font-family: "Poppins", sans-serif,
-                                    font-weight: 600,
-                                    font-style: normal;
+  --fondo-general: #fce9d8;
+  --secciones: #f4ae7d;
+  --lineas-y-bordes: #3f110b;
 
+  --iconos: #fef5ee;
+
+  --font-poppins-regular-texto: popins, Arial, Helvetica, sans-serif;
 }

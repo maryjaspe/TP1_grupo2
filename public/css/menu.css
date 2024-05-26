@@ -1,40 +1,43 @@
 section.menu {
-    margin: 25px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+  margin: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-section.menu article.product{
-    display: flex;
-    border: 3px solid var(--lineas-y-bordes);
-    width: 400px;
-    justify-content: space-evenly;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: var(--fondo-general);
-    margin-bottom: 25px;
+section.menu article.product {
+  display: flex;
+  width: 400px;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: var(--fondo-general);
+  margin-bottom: 25px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 24px -7px rgba(0, 0, 0, 0.61);
+  -webkit-box-shadow: 5px 5px 24px -7px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 5px 5px 24px -7px rgba(0, 0, 0, 0.61);
 }
 
 section.menu article.product img {
-    width: 175px;
-    height: 175px;
-    border-radius: 10%;
+  width: 175px;
+  height: 175px;
+  border-radius: 10%;
 }
 
-section.menu article.product div#info-product{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin-left: 10px;
-    align-items: flex-start;
+section.menu article.product div#info-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 10px;
+  align-items: flex-start;
 }
 
-section.menu article.product div#info-product button{
-    border: none;
-    background-color: var(--botones);
-    padding: 10px;
-    border-radius: 20px;
-    cursor: pointer;
-    color: var(--iconos);
+section.menu article.product div#info-product button {
+  border: none;
+  background-color: var(--botones);
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: var(--iconos);
 }

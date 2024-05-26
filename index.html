@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <!-- El lang es el idioma -->
 <html lang="en">
   <head>
@@ -8,7 +7,6 @@
     <link rel="icon" href="./public/imagenes/logotab.png" sizes="any" />
     <!-- estilos ccs  -->
     <link rel="stylesheet" href="./public/css/misestilos.css" />
-    <link rel="stylesheet" href="./public/css/cards.css" />
     <link
       rel="stylesheet"
       href="https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-regular-rounded.css"
@@ -16,6 +14,10 @@
     <link
       rel="stylesheet"
       href="https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-straight/css/uicons-regular-straight.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-straight/css/uicons-solid-straight.css"
     />
   </head>
 
@@ -44,46 +46,63 @@
     <section>
       <div class="container-horizontal">
         <img src="./public/imagenes/pethorizontal.png" />
+        <h2 class="subtitulos">Productos Favoritos</h2>
         <div class="container-contenido">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img
-                  class="imagenperrotorta"
-                  src="./public/imagenes/torta de cumple.jpg"
-                />
-              </div>
-              <div class="flip-card-back">
-                <h1>Descripcion 1</h1>
-                <p>texto informativo</p>
-              </div>
-            </div>
+          <div class="container-img">
+            <img
+              class="imagenperrotorta"
+              src="./public/imagenes/torta de cumple.jpg"
+            />
+            <i class="fi fi-rs-heart icono-corazon"></i>
+            <i class="fi fi-ss-heart icono-corazon-oculto"></i>
+            <p>Torta de Zanahoria</p>
           </div>
+          <div class="container-img">
+            <img class="imagenperrotorta" src="./public/imagenes/pretzel.jpg" />
 
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img class="imagenperrotorta" src="./public/imagenes/pretzel.jpg" />
-              </div>
-              <div class="flip-card-back">
-                <h1>Descripcion 1</h1>
-                <p>texto informativo</p>
-              </div>
-            </div>
+            <i class="fi fi-rs-heart icono-corazon"></i>
+            <i class="fi fi-ss-heart icono-corazon-oculto"></i>
+
+            <p>Pretzel de Avena</p>
           </div>
+          <div class="container-img">
+            <img class="imagenperrotorta" src="./public/imagenes/rollo.jpg" />
+            <i class="fi fi-rs-heart icono-corazon"></i>
+            <i class="fi fi-ss-heart icono-corazon-oculto"></i>
 
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img class="imagenperrotorta" src="./public/imagenes/rollo.jpg" />
-              </div>
-              <div class="flip-card-back">
-                <h1>Descripcion 1</h1>
-                <p>texto informativo</p>
-              </div>
-            </div>
+            <p>Roll de Verdura</p>
           </div>
         </div>
+      </div>
+      <div class="container-ubicacion">
+        <h2 class="subtitulos">Nuestra Ubicacion</h2>
+        <div id="map"></div>
+
+        <script>
+          function initMap() {
+            // Ubicación que quieres mostrar
+            var ubicacion = { lat: -34.397, lng: 150.644 };
+
+            // Crea un nuevo mapa y lo muestra en el div con id 'map'
+            var map = new google.maps.Map(document.getElementById("map"), {
+              zoom: 4,
+              center: ubicacion,
+            });
+
+            // Agrega un marcador en la ubicación especificada
+            var marker = new google.maps.Marker({
+              position: ubicacion,
+              map: map,
+            });
+          }
+        </script>
+
+        <!-- Carga la API de Google Maps -->
+        <script
+          async
+          defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2GMXBqc3SDNMHH1-qVpyBJZaGZ-qyvTE&callback=initMap"
+        ></script>
       </div>
     </section>
     <footer class="piedepagina">
