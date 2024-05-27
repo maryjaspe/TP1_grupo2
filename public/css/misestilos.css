@@ -68,6 +68,7 @@ a.button-menu.active {
   justify-content: space-between;
   margin-bottom: 40px;
   gap: 8px;
+  flex-wrap: wrap;
 }
 
 .container-horizontal {
@@ -79,6 +80,7 @@ a.button-menu.active {
 .container-img {
   flex: 1;
   position: relative;
+  min-width: 300px;
 }
 .container-img p {
   position: absolute;
