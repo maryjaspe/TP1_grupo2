@@ -151,6 +151,7 @@ a.button-menu.active {
 }
 .piedepagina {
   display: flex;
+  flex-wrap: wrap;
   padding: 90px;
   background-color: #b23417;
   color: white;
@@ -160,6 +161,7 @@ a.button-menu.active {
   justify-content: space-between;
 }
 .redessociales {
+  min-width: 200px;
   display: flex;
   gap: 8px;
   align-items: flex-start;
