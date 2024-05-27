@@ -190,6 +190,7 @@ a.button-menu.active,
   text-align: center;
   margin-top: 10px;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 .imagencamidasaludable {
   flex: 1;
