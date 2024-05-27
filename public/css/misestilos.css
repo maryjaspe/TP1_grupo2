@@ -91,9 +91,7 @@ a.button-menu.active {
   text-decoration: none;
 }
 
-a.button-menu.active,
-a.button-menu:active,
-a.button-menu:focus {
+a.button-menu.active {
   background-color: var(--color-primario);
   color: white;
 }
