@@ -4,3 +4,8 @@ form{
     flex-direction: column;
     padding: 25px;
 }
+
+form button.btn.btn-primary{
+    background-color: var(--botones);
+    border-color: var(--botones);
+}

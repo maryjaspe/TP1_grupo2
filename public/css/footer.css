@@ -1,0 +1,23 @@
+footer.piedepagina div.contactos p {
+    margin-bottom: 0px;
+}
+
+@media (max-width: 700px){ 
+    footer.piedepagina{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    footer.piedepagina div.contactos{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    footer.piedepagina div.redessociales{
+        display: flex;
+        width: 220px;
+    }
+}

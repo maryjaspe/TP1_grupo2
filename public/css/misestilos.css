@@ -12,6 +12,9 @@ nav {
   border-bottom: 1px solid #3f110b;
   max-width: 100vw;
 }
+.container{
+  margin-bottom: 30px;
+}
 
 .container-inicio {
   display: flex;
@@ -178,6 +181,7 @@ a.button-menu.active,
   gap: 30px;
   margin-top: 40px;
   font-size: 24px;
+  margin-bottom: 30px;
 }
 .subtitulos {
   font-size: 4em;
@@ -185,6 +189,7 @@ a.button-menu.active,
   color: #b23417;
   text-align: center;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 .imagencamidasaludable {
   flex: 1;
@@ -203,7 +208,7 @@ a.button-menu.active,
   padding: 90px;
   background-color: #b23417;
   color: white;
-  margin-top: 30px;
+  margin-top: auto;
   font-weight: 600;
   line-height: 30px;
   justify-content: space-between;
@@ -239,6 +244,7 @@ a.button-menu.active,
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 30px;
 }
 #map {
   height: 600px;

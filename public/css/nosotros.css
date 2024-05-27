@@ -1,0 +1,17 @@
+@media (max-width: 1200px){ 
+    div.container-acercadenosotros img.imagencamidasaludable{
+        max-width: 500px;
+    
+    }
+}
+
+@media (max-width: 1000px){ 
+    div.container-acercadenosotros{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    div.container-acercadenosotros img.imagencamidasaludable{
+        display: none;
+    }
+}
