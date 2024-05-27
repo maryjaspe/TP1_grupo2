@@ -73,6 +73,10 @@ nav {
   }
 }
 
+.menu-hamburguesa {
+  height: 50px;
+}
+
 a.button-menu {
   cursor: pointer;
   border: none;
@@ -91,9 +95,11 @@ a.button-menu.active {
   text-decoration: none;
 }
 
-a.button-menu.active {
+a.button-menu.active,
+.menu-hamburguesa:active,
+.menu-hamburguesa:focus {
   background-color: var(--color-primario);
-  color: white;
+  color: white !important;
 }
 
 .container-menu {
